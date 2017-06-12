@@ -36,6 +36,10 @@ public class CollectionTest {
         System.out.println(collection.useFuctional(animals,"l"));
         System.out.println(collection.useFuctional(animals,"b"));
         System.out.println(collection.useFuctional(animals,"e"));
+    }
 
+    @Test
+    public void sorting(){
+        collection.sort(animals);
     }
 }
