@@ -1,5 +1,7 @@
 package com.lambda.study;
 
+import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 /**
@@ -8,4 +10,9 @@ import static org.junit.Assert.*;
 public class RefactoringTest {
     /*람다를 사용한 리팩토링 */
 
+    @Test
+    public void test(){
+        Refactoring re = new Refactoring();
+        re.refactoredSend();
+    }
 }
