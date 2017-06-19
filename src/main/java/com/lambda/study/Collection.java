@@ -19,7 +19,7 @@ public class Collection {
         );
     }
 
-    public long useFuctional(List<String> animals, String letter){
+    public long useFunctional(List<String> animals, String letter){
         return animals.stream().filter(startsWithLetter.apply(letter)).count();
     }
 

@@ -1,13 +1,11 @@
 package com.lambda.study;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
 import static java.util.stream.Collectors.joining;
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 
 /**
@@ -32,10 +30,10 @@ public class CollectionTest {
 
     @Test
     public void refactoring(){
-        System.out.println(collection.useFuctional(animals,"t"));
-        System.out.println(collection.useFuctional(animals,"l"));
-        System.out.println(collection.useFuctional(animals,"b"));
-        System.out.println(collection.useFuctional(animals,"e"));
+        System.out.println(collection.useFunctional(animals,"t"));
+        System.out.println(collection.useFunctional(animals,"l"));
+        System.out.println(collection.useFunctional(animals,"b"));
+        System.out.println(collection.useFunctional(animals,"e"));
     }
 
     @Test
