@@ -12,8 +12,20 @@ public class DistanceCalculatorTest {
 
     @Test
     public void calc(){
+
         DistanceCalculator dc = new DistanceCalculator();
 
+        Double distance = dc.calculateByKillometer(new Location(37.595456, 126.952407, 37.508645, 127.048351));
+        if (3.5 > distance){
+            System.out.println("less than " + 3.5);
+        }else{
+            System.out.println("more than " + 3.5);
+        }
+    }
+
+    @Test
+    public void getMaxRange(){
+        DistanceCalculator dc = new DistanceCalculator();
         Double distance = dc.calculateByKillometer(new Location(37.595456, 126.952407, 37.508645, 127.048351));
         System.out.println(distance);
         if (3.5 > distance){
@@ -22,5 +34,4 @@ public class DistanceCalculatorTest {
             System.out.println("more than " + 3.5);
         }
     }
-
 }

@@ -39,3 +39,8 @@ public class DistanceCalculator {
     }
 }
 
+
+
+//SELECT id,
+//  ( 6371 * acos( cos( radians(37) ) * cos( radians( lat ) ) * cos( radians( lng ) - radians(127) ) + sin( radians(37) ) * sin( radians( lat ) ) ) ) AS distance
+// FROM TEST_TABLE HAVING distance < 5 ORDER BY distance LIMIT 0 , 5;
