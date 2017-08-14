@@ -7,7 +7,7 @@ import java.util.function.Consumer;
  */
 public class FluentMailer {
 
-    private FluentMailer() {};
+    private FluentMailer() {}
 
 
     private String from;
